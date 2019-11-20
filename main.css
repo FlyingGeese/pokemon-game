@@ -1,3 +1,8 @@
+@font-face {
+  src: url('./fonts/Pokemon-Solid.ttf');
+  font-family: 'Pokemon';
+}
+
 #screen {
   background-size: 100%;
   background-image: url('./images/pkbg.jpg');
@@ -8,4 +13,8 @@
 
 body {
   margin: 0;
+}
+
+h1 {
+  font-family: 'Pokemon';
 }
