@@ -1,3 +1,7 @@
 #screen {
   background-image: url('./images/pkbg.jpg')
 }
+
+body {
+  margin: 0;
+}
