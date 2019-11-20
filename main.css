@@ -1,7 +1,10 @@
 #screen {
-  background-image: url('./images/pkbg.jpg')
+  /* background-size: 100%; */
+
 }
 
 body {
+  background-image: url('./images/pkbg.jpg');
+  background-size: cover;
   margin: 0;
 }
