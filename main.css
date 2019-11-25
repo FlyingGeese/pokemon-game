@@ -1,20 +1,18 @@
-@font-face {
-  src: url('./fonts/Pokemon-Solid.ttf');
-  font-family: 'Pokemon';
-}
+.form {
+  max-width: 440px; }
+  .form input {
+    display: block; }
 
-#screen {
-  background-size: 100%;
-  background-image: url('./images/pkbg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
+.btn-login, .btn-signup {
+  padding: 2% 5%;
+  color: #fff; }
 
-body {
-  margin: 0;
-}
+.btn-signup {
+  background-color: green;
+  border-color: green; }
 
-h1 {
-  font-family: 'Pokemon';
-}
+.btn-login {
+  background-color: red;
+  border-color: firebrick; }
+
+/*# sourceMappingURL=main.css.map */
